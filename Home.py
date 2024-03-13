@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-plt.rcParams['text.usetex'] = True
-
 # Callback functions
 if 'clicked_geo' not in st.session_state:
     st.session_state.clicked_geo = False
